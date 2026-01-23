@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <meta name="description" content="A basic calculator tool">
+
+  <link rel="icon" href="calc.jpg">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Font Awesome Animation -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css"
+    type="text/css" media="all" />
+
+  <link rel="stylesheet" href="css/calculator2.css">
+</head>
+
+<body>
+  <div class="nav-back">
+    <button id="goBackBtn" class="nav-back" type="button" onclick="history.back()">Back</button>
+  </div>
+
+  <header>
+    <h1>Calculator</h1>
+  </header>
+
+  <div class="wrapper">
+    <p>ボタンを順番に押すことで計算ができます。</p>
+
+    <div class="calc-container">
+      <div class="calc-box">
+        <div id="logDisplay" class="calc-item"></div>
+        <div id="finalResult" class="calc-item">0</div>
+
+        <div id="btnClear" class="calc-item btn">C</div>
+        <div id="btnDivide" class="calc-item btn">/</div>
+
+        <div id="btn7" class="calc-item btn">7</div>
+        <div id="btn8" class="calc-item btn">8</div>
+        <div id="btn9" class="calc-item btn">9</div>
+        <div id="btnMultiply" class="calc-item btn">*</div>
+
+        <div id="btn4" class="calc-item btn">4</div>
+        <div id="btn5" class="calc-item btn">5</div>
+        <div id="btn6" class="calc-item btn">6</div>
+        <div id="btnMinus" class="calc-item btn">-</div>
+
+        <div id="btn1" class="calc-item btn">1</div>
+        <div id="btn2" class="calc-item btn">2</div>
+        <div id="btn3" class="calc-item btn">3</div>
+        <div id="btnPlus" class="calc-item btn">+</div>
+
+        <div id="btn0" class="calc-item btn">0</div>
+        <div id="btnEqual" class="calc-item btn">=</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      <i class="fa fa-cog fa-spin animated font05" aria-hidden="true"></i>
+      <span class="mgn-01">copyright 2025 ULLAH MD AMAN</span>
+      <i class="fa fa-bicycle faa-passing animated font06" aria-hidden="true"></i>
+    </p>
+  </footer>
+
+  <script src="js/calculator2.js"></script>
+</body>
+
+</html>
