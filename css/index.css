@@ -83,7 +83,7 @@ h2 {
 
 /* Animation class */
 .fade-in {
-    animation: fadein 1.5s ease-in-out forwards;
+    animation: fadein 1.5s ease-out forwards;
 }
 
 @keyframes fadein {
